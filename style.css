@@ -439,6 +439,7 @@ nav li span {
   flex-direction: row;
 }
 .contact-text h2 {
+  color: #000000;
   margin-left: 0.5rem;
   margin-top: 1.7rem;
 }
@@ -469,6 +470,7 @@ nav li span {
 /* FOOTER */
 
 #footer {
+  height: 2rem;
   margin: 0.3rem 0;
   font-weight: 600;
   text-align: center;
