@@ -109,7 +109,8 @@
 
 @media screen and (max-width: 480px) {
   #home{
-    height: 200vh;
+    padding-bottom: 5rem;
+    height: fit-content;
     background-position: right 63vh;
   }
   .home-txt .text{
