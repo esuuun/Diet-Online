@@ -103,12 +103,12 @@
 
 @media screen and (max-width: 540px) {
   #home {
-    background-position: right 60vh;
+    background-position: right 57vh;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #homer{
+  #home{
     background-position: right 57vh;
   }
   .home-txt .text{
