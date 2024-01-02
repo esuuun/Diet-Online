@@ -84,6 +84,21 @@
   #about {
     padding: 0 1.7rem;
   }
+  .contact-title{
+    font-size: 30px;
+  }
+  .contact-card{
+    padding: 1rem 1rem;
+  }
+  .contact-text{
+    margin-left: 0.4rem;
+  }
+  .contact-text .icon{
+    height: 2rem;
+  }
+  .contact-text h2{
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 530px) {

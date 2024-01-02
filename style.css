@@ -378,9 +378,11 @@ nav li span {
   flex-wrap: wrap;
 }
 .chat1{
+  overflow: hidden;
   height: 12rem;
 }
 .chat2{
+  overflow: hidden;
   height: 15rem;
 }
 
