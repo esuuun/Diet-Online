@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 480px) {
   #home{
-    background-position: right 57vh;
+    background-position: right 63vh;
   }
   .home-txt .text{
     padding: 0 0.4rem;
