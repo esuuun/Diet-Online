@@ -109,6 +109,7 @@
 
 @media screen and (max-width: 480px) {
   #home{
+    height: 200vh;
     background-position: right 63vh;
   }
   .home-txt .text{
