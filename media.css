@@ -105,11 +105,24 @@
   #home {
     background-position: right 57vh;
   }
+  .contact-card{
+    flex-direction: column;
+  }
+  .contact-line{
+    width: 21rem;
+    height: 3px;
+  }
+  .contact-title{
+    width: fit-content;
+  }
+  .card-txt h2{
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   #home{
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     height: fit-content;
     background-position: right 63vh;
   }
@@ -137,16 +150,6 @@
   .chat2{
     height: 11rem;
   }
-  .contact-card{
-    flex-direction: column;
-  }
-  .contact-line{
-    width: 21rem;
-    height: 3px;
-  }
-  .contact-title{
-    width: fit-content;
-  }
   #kelas{
     padding: 2rem 1rem;
   }
@@ -162,5 +165,8 @@
   .coach-card{
     width: 320px;
     height: 408px;
+  }
+  .card-txt h2{
+    font-size: 18px;
   }
 }

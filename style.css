@@ -242,6 +242,7 @@ nav li span {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .card-txt h2 {
   font-weight: 700;
