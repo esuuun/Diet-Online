@@ -101,13 +101,19 @@
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 540px) {
   #home {
     background-position: right 51vh;
   }
 }
 
 @media screen and (max-width: 480px) {
+  #homer{
+    background-position: right 57vh;
+  }
+  .home-txt .text{
+    padding: 0 0.4rem;
+  }
   #testimoni{
     padding: 5rem 1rem;
   }
