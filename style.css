@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(246, 197, 0);
+}
+
+/* Navigation Bar Desktop*/
+nav {
+  z-index: 1000;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 5.5rem;
+  width: 100%;
+}
+.logo {
+  padding: 0 5rem;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+nav li {
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+nav li a {
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+nav li span {
+  color: rgb(248, 195, 1);
+}
+
+/* Navigation Bar Mobile  */
+#mobile-nav{
+  justify-content: space-between;
+  display: none;
+}
+.hamburger{
+  margin-right: 1.5rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 5px;
+  cursor: pointer;
+}
+.line{
+  transition: 300ms;
+}
+.hamburger.active{
+  width: 50%;
+  flex-direction: column;
+  align-items: end;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger.active .line:first-child{
+  transform: translate(0px, 7px);
+}
+.hamburger.active .line:last-child{
+  transform: translate(0px, -7px);
+}
+
+.line{
+  width: 25px;
+  border: 1px solid black;
+}
+.menu{
+  gap: 3rem;
+  padding-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000000;
+  column-gap:10rem;
+  text-align: center; 
+  position: fixed;
+  background: rgba(255, 255, 255, 0.562);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: 100%;
+  width: 13rem;
+  position: fixed;
+  right: 0; 
+  transform: translateX(1000px);
+  transition: all 300ms ease-in-out;
+}
+.menu.active{
+  transform: translateX(0px);
+}
+
+.menu li{
+  list-style: none;
+}
+
+.menu li a{
+  padding: 0px 2rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: all 300ms ease-in-out;
+  border-radius: 2em;
+}
+
+/* Home */
+#home {
+  min-height: 100vh;
+  max-height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  background-attachment: local;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(Assets/image_background-removebg.png);
+  background-position: right 10vh;
+}
+.home-txt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-left: 10%;
+  width: fit-content;
+}
+.home-txt button {
+  color: rgb(248, 195, 1);
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  height: 4rem;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.icon {
+  margin-top: 1.3rem;
+  width: 3rem;
+  height: 2.3rem;
+}
+.title {
+  font-size: 65px;
+}
+
+.title span {
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.text span {
+  font-weight: 800;
+}
+
+/* QUESTION */
+#question {
+  text-align: justify;
+  background-color: rgba(253, 242, 212, 1);
+  padding: 2rem 5rem;
+  height: fit-content;
+}
+.title2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 2.5rem;
+}
+.title2 span {
+  color: rgba(243, 183, 0, 1);
+}
+/* ABOUT */
+
+#about {
+  padding: 0 5rem;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logo {
+  width: fit-content;
+  height: 35rem;
+}
+#about h1 span {
+  color: rgb(255, 255, 255);
+}
+
+.about-txt-container {
+  width: 50%;
+  height: fit-content;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+/* COACH */
+#coach {
+  min-height: 100vh;
+  max-height: fit-content;
+  background-color: rgba(253, 242, 212, 1);
+}
+.card-container {
+  margin-top: 5rem;
+  justify-content: center;
+  padding: 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+.coach-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 508px;
+  background-color: rgba(238, 184, 0, 1);
+}
+.card-img {
+  background-color: aliceblue;
+  height: 80%;
+  width: 100%;
+}
+.card-txt {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.card-txt h2 {
+  font-weight: 700;
+  color: white;
+}
+
+/* Kelas */
+
+#kelas {
+  padding: 2rem 5rem 0;
+  min-height: 110vh;
+  max-height: fit-content;
+  background-color: rgba(253, 242, 212, 1);
+}
+
+#kelas .text {
+  text-align: center;
+}
+
+.kelas-card-container {
+  margin-top: 5rem;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20rem;
+}
+.kelas-card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.3rem;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  min-height: 734px;
+  max-height: fit-content;
+  width: 514px;
+  border-radius: 2rem;
+}
+.kelas-title {
+  width: 100%;
+  height: 38%;
+}
+.kelas-card h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.kelas-card h3 {
+  font-weight: 700;
+}
+.kelas-card h2 {
+  font-size: 40px;
+  color: rgb(255, 0, 0);
+}
+.card-list {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 2rem 4rem;
+  text-align: left;
+  width: fit-content;
+  height: 50%;
+}
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+}
+
+.card-button button {
+  border: none;
+  border-radius: 2rem;
+  background-color: rgba(238, 184, 0, 1);
+  color: rgb(0, 0, 0);
+  width: 302px;
+  height: 5rem;
+  outline: none;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Testimoni */
+#testimoni {
+  padding: 5rem 5rem 0;
+  min-height: 120vh;
+  max-height: fit-content;
+  background-color: rgba(253, 242, 212, 1);
+}
+#testimoni .text {
+  text-align: center;
+}
+.testimoni-card-container {
+  padding-top: 4rem;
+  width: 100%;
+  justify-content: center;
+  gap: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimoni-card1 {
+  background-image: url(Assets/WhatsApp\ Image\ 2023-12-09\ at\ 11.02.09.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 22rem;
+  height: 22rem;
+  background-color: rgb(255, 255, 255);
+}
+.testimoni-card2 {
+  background-image: url(Assets/WhatsApp\ Image\ 2023-12-09\ at\ 11.02.10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 22rem;
+  height: 22rem;
+  background-color: rgb(255, 255, 255);
+}
+.testimoni-card3 {
+  background-image: url(Assets/WhatsApp\ Image\ 2023-12-09\ at\ 11.03.29_auto_x2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 22rem;
+  height: 22rem;
+  background-color: rgb(255, 255, 255);
+}
+.testimoni-chat{
+  margin-top: 6rem;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.chat1{
+  height: 12rem;
+}
+.chat2{
+  height: 15rem;
+}
+
+/* Contact */
+#contact{
+  padding-top: 4rem;
+  background-color: #F8F8F8;
+  min-height: 80vh;
+}
+.contact-container{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.contact-card{   
+  border-radius: 3em;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #EEB800;
+  height: fit-content;
+  width: fit-content;
+}
+.contact-title{
+  width: fit-content;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+.contact-title span{
+  color: #F8F8F8;
+}
+.contact-line{
+  height: 11rem;
+  width: 3px;
+  background-color: rgb(0, 0, 0);
+}
+.contact-text{
+  align-content: center;
+  margin-left: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.contact-text .icon{
+  height: 3rem;
+}
+.contact-whatsapp{
+  display: flex;
+  flex-direction: row;
+}
+.contact-text h2{
+  margin-left: 0.5rem;
+  margin-top: 1.7rem;
+}
+
+.contact-instagram{
+  display: flex;
+  flex-direction: row;
+}
+
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:30px;
+	right:30px;
+	background-color: #000000;
+	color:#ffffff;
+	border-radius:50px;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 3px #000000;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+} 
+/* FOOTER */
+
+#footer{
+  margin: 0.3rem 0;
+  font-weight: 600;
+  text-align: center;
+}

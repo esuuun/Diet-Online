@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelas Diet Online PPKM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="desktop-nav" data-aos="slide-down" data-aos-duration="1000">
+      <a href="#home" class="logo">PPKM</a>
+      <li>
+        <a href="#about">About Us</a>
+        <a href="#coach">Coach</a>
+        <a href="#kelas">Kelas</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#contact"><span>Contact</span></a>
+      </li>
+    </nav>
+    <nav id="mobile-nav" data-aos="slide-down" data-aos-duration="1000">
+      <a href="#home" class="logo">PPKM</a>
+      <div class="hamburger" onclick="menu_btn()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <div class="menu">
+      <li><a href="#about" onclick="menu_btn()">About Us</a></li>
+      <li><a href="#coach" onclick="menu_btn()">Coach</a></li>
+      <li><a href="#kelas" onclick="menu_btn()">Kelas</a></li>
+      <li><a href="#testimoni" onclick="menu_btn()">Testimoni</a></li>
+      <li>
+        <a href="#contact" onclick="menu_btn()"><span>Contact</span></a>
+      </li>
+    </div>
+
+    <section id="home" data-aos="fade-in" data-aos-duration="2000">
+      <div class="home-txt">
+        <h1 class="title">Kelas Diet <span>Online</span></h1>
+        <div class="text">
+          <p>Sudah coba diet macam macam cara...Tapi ga ada hasilnya??</p>
+          <p>Atau mau diet tapi banyak banget pantagannya??</p>
+        </div>
+        <a href="" id="home-button">
+          <button>Ikut Kelas Kami!</button>
+        </a>
+        <div>
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              class="icon"
+            >
+              <path
+                d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"
+              ></path></svg
+          ></a>
+          <a
+            href="https://www.instagram.com/dietonline.co?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 24 24"
+              class="icon"
+            >
+              <path
+                d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"
+              ></path></svg
+          ></a>
+        </div>
+      </div>
+      <div class="background"></div>
+    </section>
+
+    <section id="question">
+      <h1 class="title2" data-aos="zoom-in-up" data-aos-duration="1000">
+        <span>Pernah</span> Ga Sih?
+      </h1>
+      <div class="text" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="100">
+        Mau diet, tapi banyak banget <span>PANTANGANNYA</span>??? Ga boleh makan
+        nasi !! Ga boleh ngemil !! Harus olahraga berat !! Harus ini harus
+        itu...yang kita ga biasa ngelakuinnya…
+        <span>Pokoknya beraaat</span> Bro.. Sis…..Tapi hasilnya gaada...Duit
+        boncos....Badan tetap ngga minimalis...<span>Capeek deh..</span>
+        <br /><br />
+        Kalupun sudah berhasil turun berat badan...
+        <span
+          >Gak lama naik lagi... Muka keliatan tua... Kaya orang sakit... Otot
+          menurun.. Metabolisme menurun..</span
+        >
+        Jika itu semua masalah kamu... Saat ini
+        <span>kamu sudah berada di tempat yang tepat!</span>
+      </div>
+    </section>
+    <svg
+      viewBox="0 0 1920 200"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        fill="rgba(253, 242, 212, 1)"
+        d="M 0 0 C 485.5 0 485.5 110 971 110 L 971 110 L 971 0 L 0 0 Z"
+        stroke-width="0"
+      ></path>
+      <path
+        fill="rgba(253, 242, 212, 1)"
+        d="M 970 110 C 1445 110 1445 0 1920 0 L 1920 0 L 1920 0 L 970 0 Z"
+        stroke-width="0"
+      ></path>
+    </svg>
+
+    <section id="about">
+      <img
+        src="Assets/LOGO.png"
+        alt=""
+        id="logo"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+      />
+      <div
+        class="about-txt-container"
+      >
+        <h1 class="title2" data-aos="zoom-in-up" data-aos-duration="1000">Kelas Diet Online <span>PPKM</span></h1>
+        <div class="text" data-aos="slide-up" data-aos-duration="1000">
+          <span>Kelas diet online PPKM</span> adalah kelas coaching online yang
+          sudah berdiri dari 2019 yang akan membantu kamu menuju body goals
+          aman, cepat dan sehat tentunya... <br /><br />
+          Kamu akan dipandu oleh <span>coach</span> weight management yang
+          <span>profesional</span> dan <span>bersetifikat</span> akan membat
+          perjanalan diet kamu makin aman.
+        </div>
+      </div>
+    </section>
+
+    <section id="coach">
+      <svg
+        id="wave"
+        style="transform: rotate(180deg); transition: 0.3s"
+        viewBox="0 0 1440 100"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(246, 197, 0, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(246, 197, 0, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,90L60,75C120,60,240,30,360,23.3C480,17,600,33,720,48.3C840,63,960,77,1080,70C1200,63,1320,37,1440,28.3C1560,20,1680,30,1800,28.3C1920,27,2040,13,2160,6.7C2280,0,2400,0,2520,0C2640,0,2760,0,2880,11.7C3000,23,3120,47,3240,53.3C3360,60,3480,50,3600,43.3C3720,37,3840,33,3960,36.7C4080,40,4200,50,4320,58.3C4440,67,4560,73,4680,78.3C4800,83,4920,87,5040,81.7C5160,77,5280,63,5400,53.3C5520,43,5640,37,5760,35C5880,33,6000,37,6120,43.3C6240,50,6360,60,6480,66.7C6600,73,6720,77,6840,65C6960,53,7080,27,7200,28.3C7320,30,7440,60,7560,63.3C7680,67,7800,43,7920,33.3C8040,23,8160,27,8280,38.3C8400,50,8520,70,8580,80L8640,90L8640,100L8580,100C8520,100,8400,100,8280,100C8160,100,8040,100,7920,100C7800,100,7680,100,7560,100C7440,100,7320,100,7200,100C7080,100,6960,100,6840,100C6720,100,6600,100,6480,100C6360,100,6240,100,6120,100C6000,100,5880,100,5760,100C5640,100,5520,100,5400,100C5280,100,5160,100,5040,100C4920,100,4800,100,4680,100C4560,100,4440,100,4320,100C4200,100,4080,100,3960,100C3840,100,3720,100,3600,100C3480,100,3360,100,3240,100C3120,100,3000,100,2880,100C2760,100,2640,100,2520,100C2400,100,2280,100,2160,100C2040,100,1920,100,1800,100C1680,100,1560,100,1440,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z"
+        ></path>
+      </svg>
+
+      <h1 class="title2" data-aos="zoom-in-up" data-aos-duration="1000">
+        COACH
+      </h1>
+      <div class="card-container">
+        <div class="coach-card" data-aos="slide-up" data-aos-duration="1200">
+          <div class="card-img"></div>
+          <div class="card-txt"><h2>MARJAN KURNIALILLAH</h2></div>
+        </div>
+        <div class="coach-card" data-aos="slide-up" data-aos-duration="1200" data-aos-delay="100">
+          <div class="card-img"></div>
+          <div class="card-txt"><h2>AGUS ALVARO</h2></div>
+        </div>
+        <div class="coach-card" data-aos="slide-up" data-aos-duration="1200" data-aos-delay="200">
+          <div class="card-img"></div>
+          <div class="card-txt"><h2>M. IVAN PRAMANA PUTRA</h2></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kelas">
+      <h1 class="title2" data-aos="zoom-in-up" data-aos-duration="1000"><span>Kelas</span> Diet</h1>
+      <div class="text" data-aos="zoom-in-up" data-aos-duration="1000">
+        Kami memiliki <span>2 pilihan kelas</span> yang bisa kamu ikutin sesuai
+        dengan target kamu... Mau yang <span>biasa</span> atau yang
+        <span>advance</span> semua kamu yang tentukan.
+      </div>
+      <div class="kelas-card-container">
+        <div class="kelas-card" data-aos="slide-up" data-aos-duration="1200">
+          <div class="kelas-title">
+            <h1>Basic</h1>
+            <br />
+            <h3><s>Rp 200.000</s></h3>
+            <h2>Rp 100.000</h2>
+            <br />
+          </div>
+          <div class="card-list">
+            <ul>
+              <li>Bimbingan Coach dalam grup WA</li>
+              <li>Pengaturan pola makan secara umum</li>
+              <li>Hitungan komposisi makro nutrisi umum</li>
+              <li>Bimbingan Coach 30 hari</li>
+            </ul>
+          </div>
+          <div class="card-button">
+            <a href=""><button>Daftar Kelas Basic</button></a>
+          </div>
+        </div>
+        <div class="kelas-card" data-aos="slide-up" data-aos-duration="1200">
+          <div class="kelas-title">
+            <h1>Advance</h1>
+            <br />
+            <h2>Harga Spesial!</h2>
+            <br />
+            <h3>Hubungi Kami untuk info lebih lanjut</h3>
+          </div>
+          <div class="card-list">
+            <ul>
+              <li>Bimbingan Coach personal/private</li>
+              <li>Pengaturan pola makan secara pribadi</li>
+              <li>Hitungan defisit kalori personal</li>
+              <li>Bimbingan Coach selamanya</li>
+              <li>Superfood nutrisi</li>
+              <li>Teknologi di level genetika</li>
+              <li>Hitungan komposisi makro personal</li>
+            </ul>
+          </div>
+          <div class="card-button">
+            <a href=""><button>Daftar Kelas Advance</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimoni">
+      <h1 class="title2" data-aos="zoom-in-up" data-aos-duration="1000"><span>Testimoni</span> Pelanggan Kami</h1>
+      <div class="text" data-aos="zoom-in-up" data-aos-duration="1000">
+        Kok murah banget? Apa yakin berhasil??? Tak kenal maka tak sayang...
+        Coba lihat testimoni dari peserta yang sudah lebih dulu merasakan
+        manfaat dari kelas ini.
+      </div>
+      <div class="testimoni-card-container">
+        <div class="testimoni-card1" data-aos="slide-up" data-aos-duration="1200"></div>
+        <div class="testimoni-card2" data-aos="slide-up" data-aos-duration="1200"></div>
+        <div class="testimoni-card3" data-aos="slide-up" data-aos-duration="1200"></div>
+      </div>
+      <div class="testimoni-chat" data-aos="slide-up" data-aos-duration="1200">
+        <img
+          src="Assets/04ae1c3e-fa2f-4fcc-a111-38111d94415e.png"
+          alt=""
+          class="chat1"
+        />
+        <img
+          src="Assets/72f3472c-fbbf-4892-acc8-d94783ce983c.png"
+          alt=""
+          class="chat2"
+        />
+        <img
+          src="Assets/04ae1c3e-fa2f-4fcc-a111-38111d94415e.png"
+          alt=""
+          class="chat1"
+        />
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="title2"  data-aos="zoom-in-up" data-aos-duration="1000"><span>Mau</span> Tanya Dulu?</h1>
+      <div class="contact-container">
+        <div class="contact-card"  data-aos="slide-up" data-aos-duration="1200">
+          <div class="contact-title">
+            <h1><span>Hubungi</span><br />Kami</h1>
+          </div>
+          <div class="contact-line"></div>
+          <div class="contact-text">
+            <div class="contact-whatsapp">
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  class="icon"
+                >
+                  <path
+                    d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"
+                  ></path></svg
+              ></a>
+              <h2>081267566000</h2>
+            </div>
+
+            <div class="contact-instagram">
+              <a
+                href="https://www.instagram.com/dietonline.co?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 24 24"
+                  class="icon"
+                >
+                  <path
+                    d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"
+                  ></path></svg
+              ></a>
+              <h2>dietonline.co</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a
+        href=""
+        class="float"
+        target="_blank"
+        data-aos="zoom-in-left"
+        data-aos-duration="1000"
+      >
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
+    </section>
+    <section id="footer">&copy;Copyright Kelas Diet Online PPKM</section>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({once: true});
+    </script>
+  </body>
+</html>

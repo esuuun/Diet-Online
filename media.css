@@ -1,0 +1,93 @@
+@media screen and (max-width: 1500px) {
+  #about {
+    justify-content: center;
+  }
+  .about-txt-container {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  #logo {
+    height: 33rem;
+  }
+}
+@media screen and (max-width: 1150px) {
+  #mobile-nav {
+    display: flex;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  .logo {
+    padding: 0 2rem;
+  }
+  #home {
+    justify-content: center;
+    background-position: right 40vh;
+  }
+  .home-txt {
+    margin-left: 0;
+    text-align: center;
+  }
+  #logo {
+    height: 30rem;
+  }
+  #kelas{
+    padding-top: 8rem;
+  }
+  .kelas-card-container{
+    gap: 4rem;
+  }
+  #testimoni{
+    padding-top: 8rem;
+  }
+  .testimoni-card-container{
+    gap: 4rem;
+  }
+  .testimoni-chat{
+    justify-content: flex-start;
+    row-gap: 2rem;
+    padding-bottom: 5rem;
+  }
+  .about-txt-container{
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #home {
+    background-position: right 37vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .home-txt {
+    margin-top: 30%;
+  }
+  .home-txt button {
+    font-size: 23px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .title2 {
+    font-size: 45px;
+  }
+  #question {
+    padding: 2rem 2rem;
+  }
+  #logo {
+    height: 28rem;
+  }
+  #about {
+    padding: 0 1.7rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #home {
+    background-position: right 51vh;
+  }
+}
