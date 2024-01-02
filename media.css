@@ -109,9 +109,9 @@
 
 @media screen and (max-width: 480px) {
   #home{
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
     height: fit-content;
-    background-position: right 66vh;
+    background-position: right 63vh;
   }
   .home-txt .text{
     padding: 0 0.4rem;
