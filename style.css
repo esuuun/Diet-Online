@@ -241,14 +241,14 @@ nav li span {
   width: 100%;
 }
 .card-img2 {
-  background-image:url(Assets/AGUS.jpg);
+  background-image: url(Assets/AGUS.jpg);
   background-size: cover;
   background-color: aliceblue;
   height: 80%;
   width: 100%;
 }
 .card-img3 {
-  background-image:url(Assets/IVAN.jpg);
+  background-image: url(Assets/IVAN.jpg);
   background-size: cover;
   background-color: aliceblue;
   height: 80%;
@@ -388,8 +388,7 @@ nav li span {
   background-color: rgb(255, 255, 255);
 }
 .testimoni-card4 {
-  background-image: url(Assets/testimoni\ \(4\).jpeg
-  );
+  background-image: url(Assets/testimoni\ \(4\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
@@ -494,7 +493,7 @@ nav li span {
   display: flex;
   flex-direction: row;
 }
-#contact .title2{
+#contact .title2 {
   padding: 0 0.3rem;
 }
 
