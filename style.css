@@ -449,6 +449,9 @@ nav li span {
   display: flex;
   flex-direction: row;
 }
+#contact .title2{
+  padding: 0 0.3rem;
+}
 
 .float {
   position: fixed;
@@ -456,12 +459,12 @@ nav li span {
   height: 70px;
   bottom: 30px;
   right: 30px;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #f8f8f8;
+  color: #eeb800;
   border-radius: 50px;
   text-align: center;
   font-size: 40px;
-  box-shadow: 2px 2px 3px #000000;
+  box-shadow: 2px 2px 3px #eeb800;
   z-index: 100;
 }
 
