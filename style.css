@@ -340,39 +340,68 @@ nav li span {
   padding-top: 4rem;
   width: 100%;
   justify-content: center;
-  gap: 15rem;
+  gap: 5rem;
   display: flex;
   flex-wrap: wrap;
 }
 .testimoni-card1 {
-  background-image: url(Assets/WhatsApp\ Image\ 2023-12-09\ at\ 11.02.09.png);
+  background-image: url(Assets/testimoni\ \(1\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 22rem;
+  width: 40rem;
   height: 22rem;
   background-color: rgb(255, 255, 255);
 }
 .testimoni-card2 {
-  background-image: url(Assets/WhatsApp\ Image\ 2023-12-09\ at\ 11.02.10.png);
+  background-image: url(Assets/testimoni\ \(2\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 22rem;
+  width: 40rem;
   height: 22rem;
   background-color: rgb(255, 255, 255);
 }
 .testimoni-card3 {
-  background-image: url(Assets/WhatsApp\ Image\ 2023-12-09\ at\ 11.03.29_auto_x2.jpg);
+  background-image: url(Assets/testimoni\ \(3\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 22rem;
+  width: 40rem;
+  height: 22rem;
+  background-color: rgb(255, 255, 255);
+}
+.testimoni-card4 {
+  background-image: url(Assets/testimoni\ \(4\).jpeg
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 40rem;
+  height: 22rem;
+  background-color: rgb(255, 255, 255);
+}
+.testimoni-card5 {
+  background-image: url(Assets/testimoni\ \(5\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 40rem;
+  height: 22rem;
+  background-color: rgb(255, 255, 255);
+}
+.testimoni-card6 {
+  background-image: url(Assets/testimoni\ \(6\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 40rem;
   height: 22rem;
   background-color: rgb(255, 255, 255);
 }
 .testimoni-chat {
   margin-top: 6rem;
+  padding-bottom: 6rem;
   width: 100%;
   justify-content: space-around;
   display: flex;
