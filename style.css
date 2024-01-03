@@ -435,7 +435,7 @@ nav li span {
 #contact {
   padding-top: 4rem;
   background-color: #f8f8f8;
-  min-height: 80vh;
+  min-height: 50vh;
 }
 .contact-container {
   margin-top: 8rem;
@@ -447,56 +447,6 @@ nav li span {
   align-items: center;
   gap: 5rem;
 }
-.contact-card {
-  border-radius: 3em;
-  padding: 2rem 2rem;
-  display: flex;
-  flex-direction: row;
-  background-color: #eeb800;
-  height: fit-content;
-  width: fit-content;
-}
-.contact-title {
-  width: 40%;
-  font-size: 40px;
-  font-weight: 500;
-  margin-right: 1rem;
-}
-.contact-title span {
-  color: #f8f8f8;
-}
-.contact-line {
-  height: 15rem;
-  width: 3px;
-  background-color: rgb(0, 0, 0);
-}
-.contact-text {
-  align-content: center;
-  margin-left: 0.6rem;
-  display: flex;
-  flex-direction: column;
-}
-.contact-text .icon {
-  height: 3rem;
-}
-.contact-whatsapp {
-  display: flex;
-  flex-direction: row;
-}
-.contact-text h2 {
-  color: #000000;
-  margin-left: 0.5rem;
-  margin-top: 1.7rem;
-}
-
-.contact-instagram {
-  display: flex;
-  flex-direction: row;
-}
-#contact .title2 {
-  padding: 0 0.3rem;
-}
-
 .float {
   position: fixed;
   width: 70px;
@@ -510,6 +460,28 @@ nav li span {
   font-size: 40px;
   box-shadow: 2px 2px 3px #eeb800;
   z-index: 100;
+}
+.contact-button{
+  padding: 0.8rem 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #eeb800;
+  border: none;
+  border-radius: 2em;
+  color: #f8f8f8;
+  font-size: 30px; 
+}
+.contact-button{
+  cursor: pointer;
+}
+.contact-container a{
+  text-decoration: none;
+}
+.icon1{
+ margin-right: 0.4rem;
+ fill: #f8f8f8; 
 }
 
 .my-float {

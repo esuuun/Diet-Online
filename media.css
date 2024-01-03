@@ -93,20 +93,8 @@
   #about {
     padding: 0 1.7rem;
   }
-  .contact-title{
-    font-size: 30px;
-  }
-  .contact-card{
-    padding: 1rem 1rem;
-  }
-  .contact-text{
-    margin-left: 0.4rem;
-  }
-  .contact-text .icon{
-    height: 2rem;
-  }
-  .contact-text h2{
-    font-size: 20px;
+  .contact-button{
+    font-size: 25px;
   }
 }
 @media screen and (max-width:700px){
@@ -164,16 +152,6 @@
 @media screen and (max-width: 540px) {
   #home {
     background-position: right 57vh;
-  }
-  .contact-card{
-    flex-direction: column;
-  }
-  .contact-line{
-    width: 21rem;
-    height: 3px;
-  }
-  .contact-title{
-    width: fit-content;
   }
   .card-txt h2{
     font-size: 20px;
@@ -241,15 +219,13 @@
   .card-txt h2{
     font-size: 18px;
   }
+  .contact-button{
+    font-size: 20px;
+    margin: 0 0.7rem;
+  }
 }
 
 @media screen and  (max-width : 375px) {
-  .contact-title{
-    font-size: 25px; 
-  }
-  .contact-card{
-    padding: 0.5rem 0.5rem;
-  }
   .testimoni-card1{
     width: 18rem;
     height: 10rem; 
@@ -274,4 +250,9 @@
     width: 18rem;
     height: 10rem; 
    }
+  .contact-button{
+    padding: 0.8rem 1rem;
+    font-size: 15px;
+    margin: 0 1rem;
+  }
 }
