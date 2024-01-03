@@ -439,7 +439,7 @@ nav li span {
 }
 .contact-container {
   margin-top: 8rem;
-  margin-bottom: 8rem;
+  padding-bottom: 8rem;
   display: flex;
   flex-direction: column;
   width: 100%;
