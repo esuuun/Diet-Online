@@ -170,3 +170,12 @@
     font-size: 18px;
   }
 }
+
+@media screen and  (max-width : 400px) {
+  .contact-title{
+    font-size: 25px; 
+  }
+  .contact-card{
+    padding: 0.5rem 0.5rem;
+  }
+}
