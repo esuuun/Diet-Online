@@ -233,7 +233,23 @@ nav li span {
   height: 508px;
   background-color: rgba(238, 184, 0, 1);
 }
-.card-img {
+.card-img1 {
+  background-image: url(Assets/Lyla.jpg);
+  background-size: cover;
+  background-color: aliceblue;
+  height: 80%;
+  width: 100%;
+}
+.card-img2 {
+  background-image:url(Assets/AGUS.jpg);
+  background-size: cover;
+  background-color: aliceblue;
+  height: 80%;
+  width: 100%;
+}
+.card-img3 {
+  background-image:url(Assets/IVAN.jpg);
+  background-size: cover;
   background-color: aliceblue;
   height: 80%;
   width: 100%;
