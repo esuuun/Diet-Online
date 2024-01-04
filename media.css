@@ -47,7 +47,6 @@
   .testimoni-chat{
     justify-content: flex-start;
     row-gap: 2rem;
-    padding-bottom: 5rem;
   }
   .about-txt-container{
     padding-bottom: 3rem;
@@ -198,7 +197,13 @@
     height: 8rem;
   }
   .chat2{
-    height: 11rem;
+    height: 14rem;
+  }
+  .chat3{
+    height: 14rem;
+  }
+  .chat4{
+    height: 18rem;
   }
   #kelas{
     padding: 2rem 1rem;
@@ -254,5 +259,17 @@
     padding: 0.8rem 1rem;
     font-size: 15px;
     margin: 0 1rem;
+  }
+  .chat1{
+    height: 4rem;
+  }
+  .chat2{
+    height: 10rem;
+  }
+  .chat3{
+    height: 10rem;
+  }
+  .chat4{
+    height: 14rem;
   }
 }

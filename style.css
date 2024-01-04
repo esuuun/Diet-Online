@@ -415,12 +415,13 @@ nav li span {
   background-color: rgb(255, 255, 255);
 }
 .testimoni-chat {
-  margin-top: 6rem;
+  margin-top: 10rem;
   padding-bottom: 6rem;
   width: 100%;
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+  row-gap: 2rem;
 }
 .chat1 {
   overflow: hidden;
@@ -428,7 +429,15 @@ nav li span {
 }
 .chat2 {
   overflow: hidden;
-  height: 15rem;
+  height: 18rem;
+}
+.chat3 {
+  overflow: hidden;
+  height: 18rem;
+}
+.chat4 {
+  overflow: hidden;
+  height: 22rem;
 }
 
 /* Contact */
