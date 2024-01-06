@@ -234,6 +234,7 @@
 }
 @media screen and (max-width: 540px) {
   #home {
+    padding-bottom: 5rem;
     background-position: bottom;
   }
   .card-txt h2 {
