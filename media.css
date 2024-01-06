@@ -55,7 +55,7 @@
 }
 @media screen and (max-width: 1024px) {
   #home {
-    background-position: center 55vh;
+    background-position: bottom 55vh;
   }
 }
 
@@ -108,7 +108,8 @@
 }
 @media screen and (max-width: 600px) {
   #home {
-    background-position: bottom 70vh;
+    height: 150vh;
+    background-position: bottom;
   }
   .basic-card1 {
     width: 25rem;
