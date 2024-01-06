@@ -108,7 +108,7 @@
 }
 @media screen and (max-width: 600px) {
   #home {
-    height: 150vh;
+    height: 130vh;
     background-position: bottom;
   }
   .basic-card1 {
@@ -250,7 +250,6 @@
 @media screen and (max-width: 480px) {
   #home {
     padding-bottom: 5rem;
-    height: fit-content;
   }
   .home-txt .text {
     padding: 0 0.4rem;
