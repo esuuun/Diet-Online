@@ -127,7 +127,7 @@ nav li span {
   background-attachment: local;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(Assets/image_background-removebg.png);
+  background-image: url(Assets/background.png);
   background-position: right 10vh;
 }
 .home-txt {
@@ -175,7 +175,7 @@ nav li span {
 
 /* QUESTION */
 #question {
-  text-align: justify;
+  text-align: center;
   background-color: rgba(253, 242, 212, 1);
   padding: 2rem 5rem;
   height: fit-content;
@@ -191,9 +191,10 @@ nav li span {
 /* ABOUT */
 
 #about {
-  padding: 0 5rem;
+  padding: 0 5rem ;
   height: fit-content;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -214,9 +215,13 @@ nav li span {
 
 /* COACH */
 #coach {
+  padding: 4rem 0 ;
   min-height: 100vh;
   max-height: fit-content;
   background-color: rgba(253, 242, 212, 1);
+}
+#coach .text{
+  text-align: center;
 }
 .card-container {
   margin-top: 5rem;
@@ -277,9 +282,217 @@ nav li span {
 #kelas .text {
   text-align: center;
 }
-
+.title3{
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: #000000;
+  margin-top: 3rem;
+  font-size: 45px;
+  text-align: center;
+}
+.basic{
+  margin-top: 4rem;
+  justify-content: center;
+  display: flex;
+  height: fit-content;
+  flex-wrap: wrap;
+  gap: 3rem;
+  width: 100%;
+}
+.basic-card1{
+    background-image: url(Assets/basic\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card2{
+    background-image: url(Assets/basic\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card3{
+    background-image: url(Assets/basic\ \(3\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card4{
+    background-image: url(Assets/basic\ \(4\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card5{
+    background-image: url(Assets/basic\ \(5\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card6{
+    background-image: url(Assets/basic\ \(6\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card7{
+    background-image: url(Assets/basic\ \(7\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card8{
+    background-image: url(Assets/basic\ \(8\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card9{
+    background-image: url(Assets/basic\ \(9\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-card10{
+    background-image: url(Assets/basic\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    width: 30rem;
+    height: 30rem;
+}
+.basic-button{
+  gap: 1rem;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.basic-button button{
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-top: 3rem;
+  padding: 1rem 1rem;
+  font-size: 30px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2rem;
+  min-height: 4rem;
+  max-height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 2em;
+  border: none;
+}
+.advance-card1{
+  background-image: url(Assets/advance\ \(1\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card2{
+  background-image: url(Assets/advance\ \(2\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card3{
+  background-image: url(Assets/advance\ \(3\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card4{
+  background-image: url(Assets/advance\ \(4\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card5{
+  background-image: url(Assets/advance\ \(5\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card6{
+  background-image: url(Assets/advance\ \(6\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card7{
+  background-image: url(Assets/advance\ \(7\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card8{
+  background-image: url(Assets/advance\ \(8\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card9{
+  background-image: url(Assets/advance\ \(9\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card10{
+  background-image: url(Assets/advance\ \(10\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.advance-card1{
+  background-image: url(Assets/advance\ \(1\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
 .kelas-card-container {
-  margin-top: 5rem;
+  margin-top: 3rem;
   width: 100%;
   height: fit-content;
   display: flex;
@@ -293,8 +506,7 @@ nav li span {
   padding-top: 1.3rem;
   text-align: center;
   background-color: rgb(255, 255, 255);
-  min-height: 734px;
-  max-height: fit-content;
+  height: fit-content;
   width: 514px;
   border-radius: 2rem;
 }
@@ -321,7 +533,11 @@ nav li span {
   width: fit-content;
   height: 50%;
 }
+.card-list span{
+  font-weight: 700;
+}
 .card-button {
+  padding-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,8 +548,8 @@ nav li span {
 .card-button button {
   border: none;
   border-radius: 2rem;
-  background-color: rgba(238, 184, 0, 1);
-  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   width: 302px;
   height: 5rem;
   outline: none;
@@ -361,67 +577,92 @@ nav li span {
   flex-wrap: wrap;
 }
 .testimoni-card1 {
-  background-image: url(Assets/testimoni\ \(1\).jpeg);
+  background-image: url(Assets/apakatamereka\ \(1\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 40rem;
-  height: 22rem;
-  background-color: rgb(255, 255, 255);
+  width: 30rem;
+  height: 30rem;
 }
 .testimoni-card2 {
-  background-image: url(Assets/testimoni\ \(2\).jpeg);
+  background-image: url(Assets/apakatamereka\ \(2\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 40rem;
-  height: 22rem;
-  background-color: rgb(255, 255, 255);
+  width: 30rem;
+  height: 30rem;
 }
 .testimoni-card3 {
-  background-image: url(Assets/testimoni\ \(3\).jpeg);
+  background-image: url(Assets/apakatamereka\ \(3\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 40rem;
-  height: 22rem;
-  background-color: rgb(255, 255, 255);
+  width: 30rem;
+  height: 30rem;
 }
 .testimoni-card4 {
-  background-image: url(Assets/testimoni\ \(4\).jpeg);
+  background-image: url(Assets/apakatamereka\ \(4\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 40rem;
-  height: 22rem;
-  background-color: rgb(255, 255, 255);
+  width: 30rem;
+  height: 30rem;
 }
 .testimoni-card5 {
-  background-image: url(Assets/testimoni\ \(5\).jpeg);
+  background-image: url(Assets/apakatamereka\ \(5\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 40rem;
-  height: 22rem;
-  background-color: rgb(255, 255, 255);
+  width: 30rem;
+  height: 30rem;
 }
 .testimoni-card6 {
-  background-image: url(Assets/testimoni\ \(6\).jpeg);
+  background-image: url(Assets/apakatamereka\ \(6\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
-  width: 40rem;
-  height: 22rem;
-  background-color: rgb(255, 255, 255);
+  width: 30rem;
+  height: 30rem;
+}
+.testimoni-card7 {
+  background-image: url(Assets/apakatamereka\ \(7\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.testimoni-card8 {
+  background-image: url(Assets/apakatamereka\ \(8\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.testimoni-card9 {
+  background-image: url(Assets/apakatamereka\ \(9\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
+}
+.testimoni-card10 {
+  background-image: url(Assets/apakatamereka\ \(10\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  width: 30rem;
+  height: 30rem;
 }
 .testimoni-chat {
-  margin-top: 10rem;
-  padding-bottom: 6rem;
+  margin-top: 3rem;
   width: 100%;
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 5rem;
+  row-gap: 2rem;
 }
 .chat1 {
   overflow: hidden;
@@ -446,8 +687,15 @@ nav li span {
   background-color: #f8f8f8;
   min-height: 50vh;
 }
+#contact .text{
+  text-align: center;
+}
+#contact .title2{
+  margin-bottom: 1rem;
+  padding: 0 3rem;
+}
 .contact-container {
-  margin-top: 6rem;
+  margin-top: 4rem;
   padding-bottom: 8rem;
   display: flex;
   flex-direction: column;
@@ -477,7 +725,7 @@ nav li span {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: #eeb800;
+  background-color: #1add13;
   border: none;
   border-radius: 2em;
   color: #f8f8f8;
@@ -504,4 +752,9 @@ nav li span {
   margin: 0.3rem 0;
   font-weight: 600;
   text-align: center;
+}
+
+/* wave */
+.wave{
+   background-color: rgba(253, 242, 212, 1);
 }

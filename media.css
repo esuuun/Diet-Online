@@ -11,7 +11,7 @@
     height: 33rem;
   }
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1470px) {
   #mobile-nav {
     display: flex;
   }
@@ -22,8 +22,9 @@
     padding: 0 2rem;
   }
   #home {
+    height: 120vh;
     justify-content: center;
-    background-position: right 40vh;
+    background-position: center 60vh;
   }
   .home-txt {
     margin-left: 0;
@@ -32,38 +33,38 @@
   #logo {
     height: 30rem;
   }
-  #kelas{
-    padding-top: 8rem;
+  #kelas {
+    padding-top: 2rem;
   }
-  .kelas-card-container{
+  .kelas-card-container {
     gap: 4rem;
   }
-  #testimoni{
+  #testimoni {
     padding-top: 8rem;
   }
-  .testimoni-card-container{
+  .testimoni-card-container {
     gap: 4rem;
   }
-  .testimoni-chat{
+  .testimoni-chat {
     justify-content: flex-start;
     row-gap: 2rem;
   }
-  .about-txt-container{
+  .about-txt-container {
     padding-bottom: 3rem;
   }
 }
 @media screen and (max-width: 1024px) {
   #home {
-    background-position: right 37vh;
+    background-position: center 55vh;
   }
 }
 
 @media screen and (max-width: 810px) {
-  #testimoni{
-    padding:8rem 2rem 0;
+  #testimoni {
+    padding: 8rem 2rem 0;
   }
-  #kelas{
-    padding:8rem 2rem 0 ;
+  #kelas {
+    padding: 2rem 2rem 0;
   }
 }
 
@@ -83,6 +84,10 @@
   .title2 {
     font-size: 45px;
   }
+  
+  .title3{
+    font-size: 40px;
+  }
   #question {
     padding: 2rem 2rem;
   }
@@ -92,184 +97,622 @@
   #about {
     padding: 0 1.7rem;
   }
-  .contact-button{
+  .contact-button {
+    font-size: 25px;
+  }
+  .basic-button button{
     font-size: 25px;
   }
 }
-@media screen and (max-width:700px){
-  .testimoni-card1{
-    width: 32rem;
-    height: 18rem; 
-   }
-   .testimoni-card2{
-    width: 32rem;
-    height: 18rem; 
-   }
-   .testimoni-card3{
-    width: 32rem;
-    height: 18rem; 
-   }
-   .testimoni-card4{
-    width: 32rem;
-    height: 18rem; 
-   }
-   .testimoni-card5{
-    width: 32rem;
-    height: 18rem; 
-   }
-   .testimoni-card6{
-    width: 32rem;
-    height: 18rem; 
-   }
+@media screen and (max-width: 700px) {
 }
 @media screen and (max-width: 600px) {
-  .testimoni-card1{
-    width: 28rem;
-    height: 16rem; 
-   }
-   .testimoni-card2{
-    width: 28rem;
-    height: 16rem; 
-   }
-   .testimoni-card3{
-    width: 28rem;
-    height: 16rem; 
-   }
-   .testimoni-card4{
-    width: 28rem;
-    height: 16rem; 
-   }
-   .testimoni-card5{
-    width: 28rem;
-    height: 16rem; 
-   }
-   .testimoni-card6{
-    width: 28rem;
-    height: 16rem; 
-   }
+  #home {
+    background-position: bottom;
+  }
+  .basic-card1 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card2 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card3 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card4 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card5 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card6 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card7 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card8 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card9 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .basic-card10 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card1 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card2 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card3 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card4 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card5 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card6 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card7 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card8 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card9 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .advance-card10 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card1 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card2 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card3 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card4 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card5 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card6 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card7 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card8 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card9 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .testimoni-card10 {
+    width: 25rem;
+    height: 25rem;
+  }
 }
 @media screen and (max-width: 540px) {
   #home {
-    background-position: right 57vh;
+    background-position: bottom;
   }
-  .card-txt h2{
+  .card-txt h2 {
     font-size: 20px;
   }
-  #testimoni{
-    padding: 5rem 1rem;
+  #testimoni {
+    padding: 5rem 1rem 0;
+  }
+  #logo {
+    height: 25rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #home{
+  #home {
     padding-bottom: 5rem;
     height: fit-content;
-    background-position: right 63vh;
   }
-  .home-txt .text{
+  .home-txt .text {
     padding: 0 0.4rem;
   }
-  .testimoni-card1{
+  .basic-card1 {
     width: 20rem;
-    height: 11rem; 
-   }
-   .testimoni-card2{
+    height: 20rem;
+  }
+  .basic-card2 {
     width: 20rem;
-    height: 11rem; 
-   }
-   .testimoni-card3{
+    height: 20rem;
+  }
+  .basic-card3 {
     width: 20rem;
-    height: 11rem; 
-   }
-   .testimoni-card4{
+    height: 20rem;
+  }
+  .basic-card4 {
     width: 20rem;
-    height: 11rem; 
-   }
-   .testimoni-card5{
+    height: 20rem;
+  }
+  .basic-card5 {
     width: 20rem;
-    height: 11rem; 
-   }
-   .testimoni-card6{
+    height: 20rem;
+  }
+  .basic-card6 {
     width: 20rem;
-    height: 11rem; 
-   }
-  .chat1{
+    height: 20rem;
+  }
+  .basic-card7 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .basic-card8 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .basic-card9 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .basic-card10 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card1 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card2 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card3 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card4 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card5 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card6 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card7 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card8 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card9 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advance-card10 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card1 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card2 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card3 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card4 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card5 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card6 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card7 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card8 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card9 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .testimoni-card10 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .chat1 {
     height: 8rem;
   }
-  .chat2{
+  .chat2 {
     height: 14rem;
   }
-  .chat3{
+  .chat3 {
     height: 14rem;
   }
-  .chat4{
+  .chat4 {
     height: 18rem;
   }
-  #kelas{
+  #kelas {
     padding: 2rem 1rem;
   }
-  #question{
+  #question {
     padding: 2rem 1rem;
   }
-  #about{
+  #about {
     padding: 0 1rem;
   }
-  #logo{
+  #logo {
     height: 23rem;
   }
-  .coach-card{
+  .coach-card {
     width: 320px;
     height: 408px;
   }
-  .card-txt h2{
+  .card-txt h2 {
     font-size: 18px;
   }
-  .contact-button{
+  .contact-button {
     font-size: 20px;
     margin: 0 0.7rem;
   }
+  .basic-button button{
+    font-size: 20px;
+  }
+  #contact .title2{
+    padding: 0 1rem;
+  }
 }
 
-@media screen and  (max-width : 375px) {
-  .testimoni-card1{
-    width: 18rem;
-    height: 10rem; 
-   }
-   .testimoni-card2{
-    width: 18rem;
-    height: 10rem; 
-   }
-   .testimoni-card3{
-    width: 18rem;
-    height: 10rem; 
-   }
-   .testimoni-card4{
-    width: 18rem;
-    height: 10rem; 
-   }
-   .testimoni-card5{
-    width: 18rem;
-    height: 10rem; 
-   }
-   .testimoni-card6{
-    width: 18rem;
-    height: 10rem; 
-   }
-  .contact-button{
+@media screen and (max-width: 375px) {
+  .testimoni-card1 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card2 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card3 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card4 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card5 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card6 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card7 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card8 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card9 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .testimoni-card10 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card1 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card2 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card3 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card4 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card5 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card6 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card7 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card8 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card9 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .basic-card10 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card1 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card2 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card3 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card4 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card5 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card6 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card7 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card8 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card9 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .advance-card10 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .contact-button {
     padding: 0.8rem 1rem;
     font-size: 15px;
     margin: 0 1rem;
   }
-  .chat1{
-    height: 4rem;
+  .chat1 {
+    height: 5rem;
   }
-  .chat2{
+  .chat2 {
     height: 10rem;
   }
-  .chat3{
+  .chat3 {
     height: 10rem;
   }
-  .chat4{
+  .chat4 {
     height: 14rem;
+  }
+  #logo {
+    height: 18rem;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .title2 {
+    font-size: 35px;
+  }
+  .title3{
+    font-size: 30px;
+  }
+  .kelas-card h1{
+    font-size: 30px;
+  }
+  .kelas-card h2{
+    font-size: 30px;
+  }
+  .card-list{
+    font-size: 15px;
+    padding: 2rem 2rem;
+  }
+  .card-button button{
+    margin: 0 1rem;
+    padding: 0 1rem;
+    width: fit-content;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .testimoni-card1 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card2 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card3 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card4 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card5 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card6 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card7 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card8 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card9 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .testimoni-card10 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card1 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card2 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card3 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card4 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card5 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card6 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card7 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card8 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card9 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .basic-card10 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card1 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card2 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card3 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card4 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card5 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card6 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card7 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card8 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card9 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .advance-card10 {
+    width: 13rem;
+    height: 13rem;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .title2 {
+    font-size: 30px;
+  }
+  .title3{
+    font-size: 25px;
   }
 }
