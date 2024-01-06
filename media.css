@@ -108,8 +108,7 @@
 }
 @media screen and (max-width: 600px) {
   #home {
-    padding-bottom: 4rem;
-    background-position: bottom;
+    background-position: bottom 70vh;
   }
   .basic-card1 {
     width: 25rem;
@@ -234,7 +233,6 @@
 }
 @media screen and (max-width: 540px) {
   #home {
-    padding-bottom: 4rem;
     background-position: bottom;
   }
   .card-txt h2 {
