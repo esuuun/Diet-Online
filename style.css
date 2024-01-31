@@ -698,7 +698,8 @@ nav li span {
   margin-top: 4rem;
   padding-bottom: 8rem;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   width: 100%;
   height: fit-content;
   justify-content: center;
