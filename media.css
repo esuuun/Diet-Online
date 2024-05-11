@@ -11,12 +11,7 @@
   }
 }
 @media screen and (max-width: 1470px) {
-  #mobile-nav {
-    display: flex;
-  }
-  #desktop-nav {
-    display: none;
-  }
+  
   .logo {
     padding: 0 2rem;
   }
@@ -92,6 +87,12 @@
 }
 
 @media screen and (max-width: 810px) {
+  #mobile-nav {
+    display: flex;
+  }
+  #desktop-nav {
+    display: none;
+  }
   #testimoni {
     padding: 8rem 2rem 0;
   }
